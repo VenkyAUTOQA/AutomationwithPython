@@ -10,7 +10,7 @@ def is_prime(n):
       # returning True
    return True
 def check_prime():
-    n=input("Enter Value: ")
+    n=input("Enter Value to check : ")
     if n.isnumeric():
        n= int(n)
        a= is_prime(n)
