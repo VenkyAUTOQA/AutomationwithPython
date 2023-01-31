@@ -1,4 +1,4 @@
-def LCM(a,b):
+def lcm(a,b):
     if a>b:
         greater = a
     elif b>a :
@@ -9,4 +9,4 @@ def LCM(a,b):
             break
         greater+= 1
     return lcm
-print(LCM(15,16))
+print(lcm(15,16))
