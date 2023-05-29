@@ -4,4 +4,4 @@ def AgeCalculator(y,m,d):
     dob = datetime.date(y,m,d)
     age = int((today-dob).days/365.25)
     print(age)
-AgeCalculator(1998,3,16)
+AgeCalculator(1997,8,10)
