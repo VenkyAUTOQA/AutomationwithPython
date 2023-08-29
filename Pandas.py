@@ -75,6 +75,7 @@ file_path = r'C:\Users\venkatesh\Desktop\StudentsMarks_without_duplicates.xlsx'
 print(Duplicate_df)
 print(Duplicate_df.duplicated())
 new_df = Duplicate_df.drop_duplicates(inplace = True)
+print(new_df)
 
 
 
